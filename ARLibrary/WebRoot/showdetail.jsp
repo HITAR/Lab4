@@ -27,7 +27,7 @@
 
 <body>
 	<br/><br/><br/><br/>
-	<h1 align="center">详细信息</h1>
+	<h1 align="center">Details</h1>
 	<table border="1" align="center">
 		<tr>
 			<th>ISBN</th>

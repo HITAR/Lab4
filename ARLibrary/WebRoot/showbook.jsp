@@ -26,7 +26,7 @@
 </head>
 	<body>
 	<br/><br/><br/>
-	<h2 align="center">作者的作品</h2>
+	<h2 align="center">Books</h2>
 	<center>
 	<br/><br/>
 	<table border="1">

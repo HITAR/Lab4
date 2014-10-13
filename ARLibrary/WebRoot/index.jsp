@@ -24,7 +24,7 @@
 </head>
 
 <body>
-	<h1 align="center">欢迎来到查询界面</h1>
+	<h1 align="center">Welcome to GuoGuo</h1>
 	<center>
 		<br /> <br /> <br />
 		<s:form action="aa">
