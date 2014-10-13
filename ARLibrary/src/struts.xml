@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="first" namespace="/" extends="struts-default">
+		<action name="aa" class="action.BookAction">
+			<result name="list">/showbook.jsp</result>
+		</action>
+		<action name="detail" method="showDetails" class="action.BookAction" >
+			<result name="success">/showdetail.jsp</result>
+		</action>
+		<action name="deleteone" method="delete" class="action.BookAction" >
+			<result name="deleteok">/delete.jsp</result>
+		</action>
+		
+		<action name="updateone" method="update" class="action.BookAction">
+			<result name="updateok">/update.jsp</result>
+		</action>
+		
+		<action name="bb" method="judgeAuthor"  class="action.BookAction">
+			<result name="notinauthor">/addauthor.jsp</result>
+			<result name="addalready">/addbook.jsp</result>
+		</action>
+		<action name="addoneauthor" method="addAuthor" class="action.BookAction">
+			<result name="addauthorok">/addauthor.jsp</result>
+		</action>
+		<action name="addonebook" method="addBook" class="action.BookAction">
+			<result name="addbookok">/addbook.jsp</result>
+		</action>
+		
+	</package>
+</struts>    
